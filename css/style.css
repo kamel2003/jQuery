@@ -1,0 +1,129 @@
+ /*_________________  Home Section ____________________  */
+ .home {
+     background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(../imgs/image.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height: 660px;
+ }
+
+ .secContent h2 {
+     font-size: 60px;
+ }
+
+ .openNav {
+     font-size: 30px;
+     cursor: pointer;
+ }
+
+ aside {
+     color: #fff;
+     position: absolute;
+     left: 0px;
+     top: 35%;
+ }
+
+ .sideBar {
+     color: #fff;
+ }
+
+ .nav {
+     width: 150px;
+     height: 250px;
+     font-size: 18px;
+     display: none;
+ }
+
+ .closebtn {
+     position: relative;
+     font-size: 30px;
+     top: 0px;
+     left: 80%;
+     cursor: pointer;
+ }
+ .closebtn:hover{
+    color: #d61616;
+ }
+
+ .nav-link:hover {
+     color: #d61616;
+
+ }
+
+ /* ___________________  Deuration Section ____________________ */
+
+ .main-content p,
+ h3 {
+     margin-bottom: 0px;
+     padding-bottom: 3px;
+ }
+
+ .main-content h3 {
+     background-color: rgba(214, 46, 51, 0.6);
+     padding: 10px;
+ }
+
+ .main-content p {
+     background-color: #ccc;
+ }
+
+ .slidTextOne,
+ .slidTextTwo,
+ .slidTextThree {
+     cursor: pointer;
+ }
+
+ .secondPar,
+ .theerdPar,
+ .forthPar {
+     display: none;
+ }
+
+ /* ___________________  Details Section  ____________________ */
+
+ #Details {
+     background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(../imgs/invitation-2508607__340.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+     margin-bottom: 50px;
+ }
+
+
+ .innerData {
+     border: 1px solid white;
+ }
+
+ .innerData .data {
+     font-size: 30px;
+     font-weight: bold;
+     color: #fff;
+ }
+
+ ;
+
+ /* ________________ Contact Section ______________ */
+ .end-hover {
+     transition: all 0.7s;
+     border: 3px solid black !important;
+ }
+
+ .ico-square {
+     border: 1px solid black;
+     margin-left: 20px;
+     transition: 0.7s;
+ }
+
+ .end-hover:hover {
+     color: #fff;
+     border-color: rgba(73, 84, 145, 0.516);
+     background-color: red;
+ }
+ textarea{
+    height: 200px;
+    resize: vertical;
+ }
